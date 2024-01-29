@@ -1,0 +1,33 @@
+.title {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(95, 158, 160, 0.304);
+  margin: auto;
+  padding: 2%;
+}
+
+.image,
+.name {
+  margin: 1%;
+}
+
+.name {
+  line-height: normal;
+  text-align: center;
+  margin-left: 4%;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 0;
+}
+
+@media (min-width: 1024px) {
+ .name {
+  text-align: left;
+  margin-left: 1%;
+ }
+}
