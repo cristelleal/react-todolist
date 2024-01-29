@@ -50,7 +50,7 @@ input:focus {
   outline: .2px solid #fdda66;
 }
 
-button {
+.add-button {
   padding: 5%;
   border: 1px solid rgba(128, 128, 128, 0.576);
   border-top-right-radius: 10px;
@@ -61,7 +61,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.add-button:hover {
   background-color: #fdda6678;
 }
 
@@ -70,7 +70,7 @@ button:hover {
     width: 80%;
   }
 
-  button {
+  .add-button {
     padding: 3%;
   }
 }
@@ -89,7 +89,7 @@ button:hover {
     width: 40%;
   }
 
-  button {
+  .add-button {
     padding: 2%;
   }
 }

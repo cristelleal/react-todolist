@@ -27,7 +27,10 @@ function Todos() {
           placeholder="Enter your task"
           onChange={(event) => setTask(event.target.value)}
         />
-        <button onClick={() => addTodo(setTodos, newTodo)}></button>
+        <button
+          className="add-button"
+          onClick={() => addTodo(setTodos, newTodo)}
+        ></button>
       </div>
       <div className="container">
         <ul>
