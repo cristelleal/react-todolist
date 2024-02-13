@@ -9,15 +9,14 @@ function Todos() {
   const [updateTask, setUpdateTask] = useState('');
   const newTodo = { id: uuidv4(), task: task, completed: false };
   const updateTodo = (id, task) => {
-    const update = (todos) => {
+    const updatedTodos = (todos) =>
       todos.map((todo) => {
         if (todo.id === id) {
-          return { ...todo, task };
+          todo.task = task;
         }
         return todo;
       });
-    };
-    setTodos((todos) => update(todos));
+    setTodos((todos) => updatedTodos(todos));
   };
   return (
     <>
